@@ -27,4 +27,8 @@ class FizzBuzzTest {
 		assertTrue(FizzBuzz.getNumber(10).equals("Buzz"));
 	}
 
+	@Test
+	public void fifteenReturnsFizzBuzz() {
+		assertTrue(FizzBuzz.getNumber(15).equals("FizzBuzz"));
+	}
 }
