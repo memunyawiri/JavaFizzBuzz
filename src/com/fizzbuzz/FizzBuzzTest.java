@@ -11,14 +11,20 @@ class FizzBuzzTest {
 		assertTrue(FizzBuzz.getNumber(3).equals("Fizz"));
 	}
 	
+	
+	@Test
+	public void sixReturnsFizz() {
+		assertTrue(FizzBuzz.getNumber(6).equals("Fizz"));
+	}
+	
 	@Test
 	public void fiveReturnsBuzz() {
 		assertTrue(FizzBuzz.getNumber(5).equals("Buzz"));
 	}
 	
 	@Test
-	public void sixReturnsFizz() {
-		assertTrue(FizzBuzz.getNumber(6).equals("Fizz"));
+	public void tenReturnsBuzz() {
+		assertTrue(FizzBuzz.getNumber(10).equals("Buzz"));
 	}
 
 }
