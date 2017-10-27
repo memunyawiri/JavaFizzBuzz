@@ -12,8 +12,13 @@ class FizzBuzzTest {
 	}
 	
 	@Test
-	public void fiveReturnsFBuzz() {
+	public void fiveReturnsBuzz() {
 		assertTrue(FizzBuzz.getNumber(5).equals("Buzz"));
+	}
+	
+	@Test
+	public void sixReturnsFizz() {
+		assertTrue(FizzBuzz.getNumber(6).equals("Fizz"));
 	}
 
 }
