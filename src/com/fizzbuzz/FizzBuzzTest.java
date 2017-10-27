@@ -11,7 +11,6 @@ class FizzBuzzTest {
 		assertTrue(FizzBuzz.getNumber(3).equals("Fizz"));
 	}
 	
-	
 	@Test
 	public void sixReturnsFizz() {
 		assertTrue(FizzBuzz.getNumber(6).equals("Fizz"));
@@ -30,5 +29,15 @@ class FizzBuzzTest {
 	@Test
 	public void fifteenReturnsFizzBuzz() {
 		assertTrue(FizzBuzz.getNumber(15).equals("FizzBuzz"));
+	}
+	
+	@Test
+	public void multipleOfThreeAndFiveReturnsFizzBuzz() {
+		assertTrue(FizzBuzz.getNumber(30).equals("FizzBuzz"));
+	}
+	
+	@Test
+	public void nonMultipleReturnsnumber() {
+		assertTrue(FizzBuzz.getNumber(7).equals("7"));
 	}
 }
