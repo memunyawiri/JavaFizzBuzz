@@ -14,5 +14,10 @@ public class FizzBuzz {
 		}
 		
 	}
+	
+//	int isDivisibleBy(int x, int i) {
+//		return x % i == 0;
+//	}
 
 }
+

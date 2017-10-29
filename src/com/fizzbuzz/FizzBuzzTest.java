@@ -25,19 +25,15 @@ class FizzBuzzTest {
 	public void tenReturnsBuzz() {
 		assertTrue(FizzBuzz.getNumber(10).equals("Buzz"));
 	}
-
-	@Test
-	public void fifteenReturnsFizzBuzz() {
-		assertTrue(FizzBuzz.getNumber(15).equals("FizzBuzz"));
-	}
 	
 	@Test
-	public void multipleOfThreeAndFiveReturnsFizzBuzz() {
+	public void xThreeNFiveReturnsFizzBuzz() {
+		assertTrue(FizzBuzz.getNumber(15).equals("FizzBuzz"));
 		assertTrue(FizzBuzz.getNumber(30).equals("FizzBuzz"));
 	}
 	
 	@Test
-	public void nonMultipleReturnsnumber() {
+	public void numberReturnsNumber() {
 		assertTrue(FizzBuzz.getNumber(7).equals("7"));
 	}
 }
