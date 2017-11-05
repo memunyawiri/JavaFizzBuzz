@@ -1,6 +1,6 @@
 FizzBuzz README
 
-## FizzBuzz in JavaScript
+## FizzBuzz in Java
 
 My TDD attempt at the FizzBuzz kata in Java testing with JUnit.
 
